@@ -1,26 +1,32 @@
 # codingrule
 
-推奨環境
+## 推奨環境
+```
 $ ruby -v
 ruby 2.2.3
 
 $ jekyll -v
 jekyll 3.1.2
-開発環境構築
-Mac, Linux, Unix
+```
+
+
+## 開発環境構築
+### Mac, Linux, Unix
+```
 // install
 $ gem install jekyll
 
+```
 // server
 $ jekyll serve --watch
 Windows
 Windows7 64bit にて動作確認済み
 
-参考サイト
+## 参考サイト
 Windows で Jekyll を動かす
 jekyll 2.5.3 を Windows 環境にインストール
 
-更新手順・ルール
+## 更新手順・ルール
 Git でブランチを作成し、Pull request を送る
 ローカルブランチに「issue-」と issue 番号を付けたブランチを作成する
 $ git branch issue-(issue 番号)
@@ -36,6 +42,7 @@ jekyll で記事追加・更新を行う
 ファイルの命名規則は yyyy-mm-dd-(article name).md
 命名規則内の日付は何でもよい。（フォーマットは jekyll の決まりごと）
 .md ファイルの文頭に以下を必ず記述する
+```
 　---
 // post で不変
 layout: post
