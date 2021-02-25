@@ -1,0 +1,41 @@
+I"�	<p>HTML5的情况下，原则上需要正确设定type属性。以下的type属性请特别注意设定一下。</p>
+<div>
+  <dl>
+    <dt>search</dt>
+    <dd>检索form</dd>
+    <dt>tel</dt>
+    <dd>输入电话号码form</dd>
+    <dt>url</dt>
+    <dd>输入URLform</dd>
+    <dt>email</dt>
+    <dd>输入邮箱form</dd>
+    <dt>password</dt>
+    <dd>输入密码form</dd>
+    <dt>number</dt>
+    <dd>输入数值form</dd>
+    <dt>text</dt>
+    <dd>除了上面之外的单行文本form</dd>
+    <dt>date</dt>
+    <dd>日期</dd>
+    <dt>time</dt>
+    <dd>时间</dd>
+    <dt>submit</dt>
+    <dd>form发送按钮</dd>
+    <dt>reset</dt>
+    <dd>form回到初始状态按钮</dd>
+    <dt>button</dt>
+    <dd>发动除了【发送】，【初始化】以外的功能的按钮</dd>
+  </dl>
+</div>
+
+<p>HTML5的情况，原则上关于placeholder属性需要跟日本窗口确认，设定适当的内容。</p>
+
+<p>原则上，输入文字所有form中的关于max, maxlength, min, minlength属性需要跟日本窗口确认，设定适当的内容。</p>
+
+<p>原则上，对单选按钮和多选按钮，需要考虑使用&lt;label&gt;标签并且附带文字也包含在点击范围内。另外，name属性必须填写，同一组name属性的内容一致。</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">id=</span><span class="s">"blue"</span><span class="nt">&gt;&lt;label</span> <span class="na">for=</span><span class="s">"blue"</span><span class="nt">&gt;</span>Blue<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">id=</span><span class="s">"red"</span><span class="nt">&gt;&lt;label</span> <span class="na">for=</span><span class="s">"red"</span><span class="nt">&gt;</span>Red<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">id=</span><span class="s">"yellow"</span><span class="nt">&gt;&lt;label</span> <span class="na">for=</span><span class="s">"yellow"</span><span class="nt">&gt;</span>Yellow<span class="nt">&lt;/label&gt;</span>
+</code></pre></div></div>
+:ET

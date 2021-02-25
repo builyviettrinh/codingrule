@@ -1,0 +1,42 @@
+I"
+<p>HTML5の場合、原則として、type属性を正しく設定してください。以下のtype属性は特に気をつけて設定してください。</p>
+<div>
+  <dl>
+    <dt>search</dt>
+    <dd>検索フォーム</dd>
+    <dt>tel</dt>
+    <dd>電話番号入力フォーム</dd>
+    <dt>url</dt>
+    <dd>URL入力フォーム</dd>
+    <dt>email</dt>
+    <dd>メールアドレス入力フォーム</dd>
+    <dt>password</dt>
+    <dd>パスワード入力フォーム</dd>
+    <dt>number</dt>
+    <dd>数値入力フォーム</dd>
+    <dt>text</dt>
+    <dd>上記以外の改行無しテキストフォーム</dd>
+    <dt>date</dt>
+    <dd>日付</dd>
+    <dt>time</dt>
+    <dd>時刻</dd>
+    <dt>submit</dt>
+    <dd>フォーム送信ボタン</dd>
+    <dt>reset</dt>
+    <dd>フォームを初期化するボタン</dd>
+    <dt>button</dt>
+    <dd>フォーム送信、フォーム初期化以外の機能を発動するボタン</dd>
+  </dl>
+</div>
+
+<p>HTML5の場合、原則として、placeholder属性についてディレクターに確認し、適切に設定してください。</p>
+
+<p>原則として、文字を入力するすべてのフォームパーツのmax, maxlength, min, minlength属性についてディレクターに確認し、適切に設定してください。</p>
+
+<p>原則として、ラジオボタンとチェックボックスは、&lt;label&gt;タグを用いて付帯文字もクリック範囲に含めてください。また、name属性を必須とし、同一グループはname属性を統一してください。</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">id=</span><span class="s">"blue"</span><span class="nt">&gt;&lt;label</span> <span class="na">for=</span><span class="s">"blue"</span><span class="nt">&gt;</span>Blue<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">id=</span><span class="s">"red"</span><span class="nt">&gt;&lt;label</span> <span class="na">for=</span><span class="s">"red"</span><span class="nt">&gt;</span>Red<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">id=</span><span class="s">"yellow"</span><span class="nt">&gt;&lt;label</span> <span class="na">for=</span><span class="s">"yellow"</span><span class="nt">&gt;</span>Yellow<span class="nt">&lt;/label&gt;</span>
+</code></pre></div></div>
+:ET

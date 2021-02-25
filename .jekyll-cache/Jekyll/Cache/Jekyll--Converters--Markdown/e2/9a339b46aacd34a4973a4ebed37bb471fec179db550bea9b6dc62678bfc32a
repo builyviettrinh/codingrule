@@ -1,0 +1,7 @@
+I":<p>クリアフィックスを使用する場合、下記のコードを適用したいセレクタに指定してください。このクリアフィックスは変更される事がないので、プロパティは改行せずに続けて書きます(例外)。</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.selector</span><span class="nd">:after</span> <span class="p">{</span>
+  <span class="nl">content</span><span class="p">:</span><span class="s1">""</span><span class="p">;</span><span class="nl">display</span><span class="p">:</span><span class="nb">block</span><span class="p">;</span><span class="nl">clear</span><span class="p">:</span><span class="nb">both</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET

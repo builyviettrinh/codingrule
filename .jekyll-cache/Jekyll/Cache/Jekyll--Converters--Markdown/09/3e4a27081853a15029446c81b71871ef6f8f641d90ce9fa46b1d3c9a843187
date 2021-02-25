@@ -1,0 +1,25 @@
+I"<p>请遵从以下格式。</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;body&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"article"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>编程指南<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p&gt;</span>欧乐的编程指南。<span class="nt">&lt;/p&gt;</span>
+  <span class="c">&lt;!-- / .section --&gt;</span><span class="nt">&lt;/div&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>编程指南<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p&gt;</span>欧乐的编程指南。<span class="nt">&lt;/p&gt;</span>
+  <span class="c">&lt;!-- / .section --&gt;</span><span class="nt">&lt;/div&gt;</span>
+<span class="c">&lt;!-- / #article --&gt;</span><span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>
+
+<div>
+  <ul>
+    <li>HTML标签，原则上使用小写字母，禁止使用大写字母。</li>
+    <li>请插入 2 个半角空格实现缩进。<br />但是，head 内及 body 内的第一层（上例中为 div#article）不缩进。</li>
+    <li>请适时采用空 1 行等方法，确保可见。</li>
+  </ul>
+</div>
+:ET

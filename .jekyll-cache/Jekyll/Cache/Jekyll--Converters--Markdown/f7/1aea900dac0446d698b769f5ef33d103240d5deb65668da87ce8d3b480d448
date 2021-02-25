@@ -1,0 +1,7 @@
+I"Q<p>デバイスフォントに指定が無い場合、原則としてフォントは以下のように指定してください。</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">body</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s1">"メイリオ"</span><span class="p">,</span> <span class="n">Meiryo</span><span class="p">,</span> <span class="s1">"ヒラギノ角ゴ ProN W3"</span><span class="p">,</span> <span class="s1">"Hiragino Kaku Gothic ProN"</span><span class="p">,</span> <span class="s1">"游ゴシック"</span><span class="p">,</span> <span class="n">YuGothic</span><span class="p">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET

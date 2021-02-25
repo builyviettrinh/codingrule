@@ -1,0 +1,7 @@
+I"�<p>无特别指定时，字符编码使用 utf-8，换行代码使用 LF。</p>
+
+<p>通常，网站内的所有文档（包括 CSS 和 Javascript）请使用统一的字符编码。</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+:ET

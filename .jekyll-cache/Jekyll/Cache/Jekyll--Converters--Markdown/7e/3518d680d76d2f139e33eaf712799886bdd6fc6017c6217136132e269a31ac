@@ -1,0 +1,22 @@
+I"Y<p>書式は以下に従ってください。</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.selector</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">20px</span> <span class="m">20px</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="sx">url(/img/logo-company.png)</span> <span class="nb">no-repeat</span> <span class="nb">left</span> <span class="nb">top</span> <span class="m">#ff0000</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<div>
+<ul>
+<li>セレクタ名のあと、半角スペースを1つ空けて開き波括弧「{」を入力します。</li>
+<li>各プロパティの前には半角スペースを2つ挿入します。</li>
+<li>コロンの後に半角スペースを1つ挿入します。</li>
+<li>通常、1つのプロパティは1行で管理します(クリアフィックスや視認性を考慮した結果、繋げる判断は任意です)。</li>
+<li>値の後は、必ずセミコロン「;」で終了を示します。</li>
+<li>閉じ波括弧「}」の前はスペースを設けません。</li>
+<li>background等のurl内のパス指定時にシングルクォート「'」やダブルクォート「"」は不要です。</li>
+<li>値が0の場合、pxなどの単位記述は不要です。</li>
+</ul>
+</div>
+:ET

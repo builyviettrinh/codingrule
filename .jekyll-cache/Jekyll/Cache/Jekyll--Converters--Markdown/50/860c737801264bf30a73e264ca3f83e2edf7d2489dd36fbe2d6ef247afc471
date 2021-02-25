@@ -1,0 +1,54 @@
+I"$<p>連番による命名（section_1, section_2など）、レイアウト情報を表す命名（float_left, position_fixedなど）は非推奨とします。</p>
+
+<p>やむを得ず連番を使用する場合、アンダースコア「_」＋番号（section_1, section_2など）とし、原則として桁揃え表記「_02」は禁止です。</p>
+
+<p>完全に固有の要素（header, footerなど）はid、汎用的な要素（detail, itemなど）はclassを使い、どちらを使うか迷う場合はclassにしてください。</p>
+
+<p>よく使われるものは下記にまとめておきます。HTML5で正式に要素名となっているものを推奨します。</p>
+
+<div>
+  <h2>よく使われるid/class名一覧</h2>
+  <ul>
+    <li>
+      <h3>全体を包括する親要素</h3>
+      <p>wrapper</p>
+    </li>
+    <li>
+      <h3>内部を包括する子要素</h3>
+      <p>inner</p>
+    </li>
+    <li>
+      <h3>ヘッダー</h3>
+      <p>header</p>
+    </li>
+    <li>
+      <h3>フッター</h3>
+      <p>footer</p>
+    </li>
+    <li>
+      <h3>ナビゲーション</h3>
+      <p>nav、global_nav、local_nav</p>
+    </li>
+    <li>
+      <h3>パンくずリスト</h3>
+      <p>topic_path</p>
+    </li>
+    <li>
+      <h3>本文/メインエリア</h3>
+      <p>article</p>
+    </li>
+    <li>
+      <h3>ローカルエリアセクション</h3>
+      <p>section</p>
+    </li>
+    <li>
+      <h3>サイドバー</h3>
+      <p>aside</p>
+    </li>
+    <li>
+      <h3>モーダルウィンドウ</h3>
+      <p>modal</p>
+    </li>
+  </ul>
+</div>
+:ET

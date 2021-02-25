@@ -1,0 +1,6 @@
+I"!<p>html标签的字体大小指定为 <code class="language-plaintext highlighter-rouge">font-size: 62.5%;</code>(= 10px)。除此之外所有的标签全部使用<code class="language-plaintext highlighter-rouge">rem</code>单位来进行指定。例如，字体大小为14px的时候请写成<code class="language-plaintext highlighter-rouge">font-size: 1.4rem;</code>。</p>
+
+<p>根据案件的不同，请设置默认的body标签字体大小。</p>
+
+<p>如果要改变页面整体的字体大小，请修改html标签的字体大小。</p>
+:ET

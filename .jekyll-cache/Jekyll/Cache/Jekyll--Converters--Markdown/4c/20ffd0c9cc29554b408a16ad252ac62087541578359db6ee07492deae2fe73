@@ -1,0 +1,7 @@
+I"�<p>带链接的按钮图片如果没有鼠标经过效果的设计，原则上鼠标经过效果用下面的方法来设定。</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">a</span><span class="nd">:hover</span> <span class="nt">img</span> <span class="p">{</span>
+  <span class="nl">opacity</span><span class="p">:</span> <span class="m">0.7</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET

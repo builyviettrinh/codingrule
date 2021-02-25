@@ -1,0 +1,14 @@
+I"�<p>使用css3时，根据不同的需求请追加以下浏览器私有属性代码</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/* webkit系列浏览器(safari/Android标准浏览器/Chrome等) */</span>
+<span class="nt">-webkit-transform</span><span class="o">:</span> <span class="nt">translate</span><span class="o">(</span><span class="err">100</span><span class="o">,</span><span class="err">0</span><span class="o">);</span>
+<span class="c">/* Mozila系列浏览器(FireFox等) */</span>
+<span class="nt">-moz-transform</span><span class="o">:</span> <span class="nt">translate</span><span class="o">(</span><span class="err">100</span><span class="o">,</span><span class="err">0</span><span class="o">);</span>
+<span class="c">/* MicroSoft系列浏览器(Windows Phone等) */</span>
+<span class="nt">-ms-transform</span><span class="o">:</span> <span class="nt">translate</span><span class="o">(</span><span class="err">100</span><span class="o">,</span><span class="err">0</span><span class="o">);</span>
+<span class="c">/* 履行W3C 标准 */</span>
+<span class="nt">transform</span><span class="o">:</span> <span class="nt">translate</span><span class="o">(</span><span class="err">100</span><span class="o">,</span><span class="err">0</span><span class="o">);</span>
+</code></pre></div></div>
+
+<p>浏览器私有属性要根据对应os/浏览器以及浏览器的执行状态进行省略。</p>
+:ET

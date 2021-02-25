@@ -1,0 +1,5 @@
+I"�<p>Về nguyên tắc, viết theo thứ tự đảo ngược từ site name đến các page con, và sử dụng dấu “｜“ để phân chia.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;title&gt;</span>Coding guideline｜Guideline｜2nd Creative Department｜Công ty Oro<span class="nt">&lt;/title&gt;</span>
+</code></pre></div></div>
+:ET

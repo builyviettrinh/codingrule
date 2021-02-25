@@ -1,0 +1,14 @@
+I"�<p>新規制作の際に使えるテンプレートは以下で管理されています。クローン、もしくは、ダウンロードして使用してください。</p>
+
+<ul>
+  <li><a href="https://github.com/oRojp/simple-site-template" target="_blank">小規模サイト用テンプレート</a></li>
+  <li><a href="https://github.com/oRojp/static-site-template" target="_blank">中-大規模サイト用テンプレート</a></li>
+</ul>
+
+<p>また、よく使用する CSS や JS をまとめた社内パッケージがあります。<code class="language-plaintext highlighter-rouge">npm install @oro/static-site-module</code> でインストールして使用してください。
+社内パッケージの詳細な使用方法は<a href="http://tech-site.os.jp.oro.com/docs/base/npm-package.html" target="_blank">TechSite 内の説明</a>を見てください。</p>
+
+<ul>
+  <li><a href="https://github.com/oRojp/static-site-modules" target="_blank">@oro/static-site-modules</a></li>
+</ul>
+:ET

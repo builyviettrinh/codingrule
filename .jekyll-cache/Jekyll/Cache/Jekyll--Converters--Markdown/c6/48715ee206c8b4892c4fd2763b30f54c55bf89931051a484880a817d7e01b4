@@ -1,0 +1,11 @@
+I"�<p>以下の順で要素を記述してください。</p>
+
+<div>
+  <ol>
+    <li>meta要素</li>
+    <li>title要素</li>
+    <li>link要素</li>
+    <li>script要素</li>
+  </ol>
+</div>
+:ET

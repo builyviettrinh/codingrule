@@ -1,0 +1,27 @@
+---
+layout: post
+title:  Test kiểm chứng page đã tạo
+date:   2013-02-26
+categories: vn guide
+tags: 検証
+post_id: post_guide_006
+---
+Phải test kiểm tra cú pháp của page đã tạo bằng cách sử dụng chức năng validator của Dreamweaver và các tool bên dưới.
+
+<div>
+  <ul>
+    <li><a href="http://validator.w3.org/" target="_blank">W3C Markup Validation Service</a></li>
+    <li><a href="http://users.skynet.be/mgueury/mozilla/" target="_blank">HTML Validator(Firefox Addon)</a></li>
+    <li><a href="https://chrome.google.com/extensions/detail/fdicklfajomdgpciofajkedchajbnhkk" target="_blank">W3C (x)HTML Validator(Chrome Extension)</a></li>
+    <li>(Kiểm chứng source HTML5) <a href="http://www.htmllint.net/html-lint/htmllint.html" target="_blank">LINT HTML5</a> ※ 7 point trở lên là cần modify</li>
+    <li>(Kiểm chứng source XHTML) <a href="http://cetus.sakura.ne.jp/htmllint/htmllint.html" target="_blank">LINT Gateway</a> ※ 7 point trở lên là cần modify</li>
+  </ul>
+</div>
+
+Những cái mới gần đây như module thuộc tính Role của XHTML có thể bị xuất là error. Tuy nhiên, nếu đúng spec, thì vẫn không có vấn đề gì, ngay cả khi bị coi là error bởi tool Validation.
+
+<div>
+  <ul>
+    <li><a href="https://www.w3.org/TR/2010/NOTE-xhtml-role-20101216/" target="_blank">XHTML Role Attribute Module(bản gốc)</a></li>
+  </ul>
+</div>

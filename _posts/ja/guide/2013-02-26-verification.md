@@ -1,0 +1,27 @@
+---
+layout: post
+title:  制作ページの検証について
+date:   2013-02-26
+categories: ja guide
+tags: 検証
+post_id: post_guide_006
+---
+制作するページは必ず、下記に挙げているツールやDreamweaverのバリデータ機能などを使用して文法を検証してください。
+
+<div>
+  <ul>
+    <li><a href="http://validator.w3.org/" target="_blank">W3C Markup Validation Service</a></li>
+    <li><a href="http://users.skynet.be/mgueury/mozilla/" target="_blank">HTML Validator(Firefox Addon)</a></li>
+    <li><a href="https://chrome.google.com/extensions/detail/fdicklfajomdgpciofajkedchajbnhkk" target="_blank">W3C (x)HTML Validator(Chrome Extension)</a></li>
+    <li>(HTML5ソース検証はこちら) <a href="http://www.htmllint.net/html-lint/htmllint.html" target="_blank">LINT HTML5</a> ※7ポイント以上は要修正</li>
+    <li>(XHTMLソース検証はこちら) <a href="http://cetus.sakura.ne.jp/htmllint/htmllint.html" target="_blank">LINT Gateway</a> ※7ポイント以上は要修正</li>
+  </ul>
+</div>
+
+XHTMLのRole属性モジュール等、最近策定されたものだとエラーとして検出されてしまうかもしれませんが、仕様上問題なければ、Validationツールでエラーとして検出されても問題ありません。
+
+<div>
+  <ul>
+    <li><a href="https://www.w3.org/TR/2010/NOTE-xhtml-role-20101216/" target="_blank">XHTML Role Attribute Module(原文)</a></li>
+  </ul>
+</div>

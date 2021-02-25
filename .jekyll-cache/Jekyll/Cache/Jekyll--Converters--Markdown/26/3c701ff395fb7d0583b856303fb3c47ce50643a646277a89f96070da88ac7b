@@ -1,0 +1,25 @@
+I"r<p>Format phải theo như bên dưới.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;body&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"article"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Coding Guideline<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Là Coding Guideline của Oro.<span class="nt">&lt;/p&gt;</span>
+  <span class="c">&lt;!-- / .section --&gt;</span><span class="nt">&lt;/div&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Coding Guideline<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Là Coding Guideline của Oro.<span class="nt">&lt;/p&gt;</span>
+  <span class="c">&lt;!-- / .section --&gt;</span><span class="nt">&lt;/div&gt;</span>
+<span class="c">&lt;!-- / #article --&gt;</span><span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>
+
+<div>
+  <ul>
+    <li>Về nguyên tắc, tag HTML chỉ được dùng chữ nhỏ, không được dùng chữ in hoa.</li>
+    <li>Thụt đầu dòng (indent) bằng 2 lần space 1 byte.<br />Tuy nhiên, ở tầng thứ 1 trong head, body (ở ví dụ trên là div#article) thì không cần indent.</li>
+    <li>Lưu ý cách dòng phù hợp để dễ nhìn.</li>
+  </ul>
+</div>
+:ET

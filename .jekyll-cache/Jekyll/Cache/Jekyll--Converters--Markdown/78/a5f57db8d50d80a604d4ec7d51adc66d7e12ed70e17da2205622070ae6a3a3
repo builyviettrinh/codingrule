@@ -1,0 +1,6 @@
+I"'<p>Theo nguyên tắc, cần có thuộc tính alt, width, height cho tag img.</p>
+
+<p>Nếu hình không cần có alt, thì viết là alt=““.</p>
+
+<p>Nếu cần chia tỷ lệ (phóng to thu nhỏ) hình để làm responsive thì có thể lược bỏ thuộc tính width, height.</p>
+:ET

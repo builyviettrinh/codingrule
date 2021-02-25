@@ -1,0 +1,42 @@
+I"�
+<p>Ở HTML5, phải thiết lập đúng type thuộc tính. Đặc biệt, cần lưu ý đến các type thuộc tính dưới đây.</p>
+<div>
+  <dl>
+    <dt>search</dt>
+    <dd>search form</dd>
+    <dt>tel</dt>
+    <dd>tel input form</dd>
+    <dt>url</dt>
+    <dd>URL input form</dd>
+    <dt>email</dt>
+    <dd>email address input form</dd>
+    <dt>password</dt>
+    <dd>pasword input form</dd>
+    <dt>number</dt>
+    <dd>number input form</dd>
+    <dt>text</dt>
+    <dd>form text không có xuống dòng, ngoại trừ những cái đã nêu ở trên</dd>
+    <dt>date</dt>
+    <dd>date</dd>
+    <dt>time</dt>
+    <dd>time</dd>
+    <dt>submit</dt>
+    <dd>button submit formン</dd>
+    <dt>reset</dt>
+    <dd>button reset (initialize) form</dd>
+    <dt>button</dt>
+    <dd>button khởi động các chức năng khoác ngoài submit form, reset form</dd>
+  </dl>
+</div>
+
+<p>Ở HTML5, về thuộc tính placeholder, thì phải xác nhận với director về cách thiết lập phù hợp.</p>
+
+<p>Về nguyên tắc, phải xác nhận với director về cách thiết lập phù hợp các thuộc tính max, maxlength, min, minlength của tất cả các form part input ký tự.</p>
+
+<p>Đối với radio button và checkbox, thì sử dụng tag &lt;label&gt;, những ký tự bổ sung đi kèm cũng phải nằm trong phạm vi click. Ngoài ra, bắt buộc phải có thuộc tính name, và phải thống nhất thuộc tính name trong cùng một group.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">id=</span><span class="s">"blue"</span><span class="nt">&gt;&lt;label</span> <span class="na">for=</span><span class="s">"blue"</span><span class="nt">&gt;</span>Blue<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">id=</span><span class="s">"red"</span><span class="nt">&gt;&lt;label</span> <span class="na">for=</span><span class="s">"red"</span><span class="nt">&gt;</span>Red<span class="nt">&lt;/label&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"color"</span> <span class="na">id=</span><span class="s">"yellow"</span><span class="nt">&gt;&lt;label</span> <span class="na">for=</span><span class="s">"yellow"</span><span class="nt">&gt;</span>Yellow<span class="nt">&lt;/label&gt;</span>
+</code></pre></div></div>
+:ET

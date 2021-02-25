@@ -1,0 +1,43 @@
+I"�<p>以下の表は、特に指定が無い場合の標準対応ブラウザ一覧です。</p>
+
+<p>標準対応ブラウザーの選定基準は下記の通りです。</p>
+
+<ul>
+  <li>シェア率 1% 以上のブラウザーを対象とします。</li>
+  <li>上記のうち自動アップデートが行われるブラウザーは最新版のみを対象とします。</li>
+  <li>上記に当てはまるものでも、公式のサポートが終了したものは対象から除外します。</li>
+</ul>
+
+<p>シェア率については下記のサイトを参考にしています。</p>
+
+<ul>
+  <li><a href="https://www.netmarketshare.com/browser-market-share.aspx" target="_blank">NETMARKETSHARE</a></li>
+  <li><a href="https://developer.apple.com/support/app-store/" target="_blank">Apple 公式発表</a></li>
+  <li><a href="http://developer.android.com/about/dashboards/index.html" target="_blank">Google 公式発表</a></li>
+</ul>
+
+<p>制作中・後に変更があると莫大なコスト増を引き起こすため、サポートが必要なブラウザについては制作開始前に必ず確認してください。下位互換が必要なサイト・コンテンツの場合、対象ブラウザに IE10 以前を含む場合がありますので、特に注意してください。</p>
+
+<div>
+  <h2>Windows</h2>
+  <ul>
+    <li>Internet Explorer 11</li>
+    <li>Edge 制作時の最新バージョン</li>
+    <li>Firefox 制作時の最新バージョン</li>
+    <li>Chrome 制作時の最新バージョン</li>
+  </ul>
+</div>
+<div>
+  <h2>Mac</h2>
+  <ul>
+    <li>Safari 制作時の最新バージョン</li>
+  </ul>
+</div>
+<div>
+  <h2>スマートフォン・タブレット</h2>
+  <ul>
+    <li>iPhone / iPad iOS Safari 製作時の最新バージョンと、その2つ前までのメジャーバージョン</li>
+    <li>Android Chrome 製作時の最新バージョンと、その2つ前までのメジャーバージョン</li>
+  </ul>
+</div>
+:ET

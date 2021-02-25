@@ -1,0 +1,7 @@
+I"�<p>Nếu không có chỉ thị đặc biệt nào, thì Character code là utf-8, line break code là LF.</p>
+
+<p>Phải thống nhất character coder của tất cả các document file (bao gồm cả CSS và Javascript) trong site.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+:ET

@@ -1,0 +1,267 @@
+---
+layout: default_ja
+---
+
+<p class="doc_title print">
+  HTML/CSS コーディングガイドライン<br />株式会社オロ
+</p>
+
+<nav id="content_table" class="print">
+  <p class="table_top">目次</p>
+  <ul>
+    <li>
+      <p class="table_category guide">GUIDE</p>
+      <ul>
+        {% assign sorted_posts = site.posts | sort: "post_id" %} {% for post in
+        sorted_posts %} {% if post.categories contains 'ja' and post.categories
+        contains 'guide' %}
+        <li class="table_content">
+          {{ post.title }}&nbsp;&nbsp;...&nbsp;&nbsp;#{{ post.post_id | replace:
+          'post_', '' }}
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
+    </li>
+    <li>
+      <p class="table_category html">HTML</p>
+      <ul>
+        {% assign sorted_posts = site.posts | sort: "post_id" %} {% for post in
+        sorted_posts %} {% if post.categories contains 'ja' and post.categories
+        contains 'html' %}
+        <li class="table_content">
+          {{ post.title }}&nbsp;&nbsp;...&nbsp;&nbsp;#{{ post.post_id | replace:
+          'post_', '' }}
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
+    </li>
+    <li>
+      <p class="table_category css">CSS</p>
+      <ul>
+        {% assign sorted_posts = site.posts | sort: "post_id" %} {% for post in
+        sorted_posts %} {% if post.categories contains 'ja' and post.categories
+        contains 'css' %}
+        <li class="table_content">
+          {{ post.title }}&nbsp;&nbsp;...&nbsp;&nbsp;#{{ post.post_id | replace:
+          'post_', '' }}
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
+    </li>
+    <li>
+      <p class="table_category sp">SP</p>
+      <ul>
+        {% assign sorted_posts = site.posts | sort: "post_id" %} {% for post in
+        sorted_posts %} {% if post.categories contains 'ja' and post.categories
+        contains 'sp' %}
+        <li class="table_content">
+          {{ post.title }}&nbsp;&nbsp;...&nbsp;&nbsp;#{{ post.post_id | replace:
+          'post_', '' }}
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<article>
+  <div id="visual">
+    <section>
+      <h1>
+        <img
+          src="./img/img-visual.jpg"
+          width="850"
+          height="349"
+          alt="HTML/CSS コーディングガイドライン"
+        />
+      </h1>
+      <p>
+        <span>オロのHTML/CSSコーディングガイドラインです。</span><br /><a
+          href="http://www.oro.co.jp/"
+          target="_blank"
+        >
+        </a>
+      </p>
+    </section>
+    <!-- / #visual -->
+  </div>
+  <div id="posts">
+    <section id="update_information">
+      <div class="post_title">
+        <h1>
+          <span class="post_mark post_type_news">NEWS</span
+          ><span>更新情報</span>
+        </h1>
+      </div>
+      <div class="post_body">
+        <ul>
+          {% assign post_count = 0 %} {% for post in site.posts %} {% if
+          post.categories contains 'ja' %} {% if post_count < 5 %}
+          <li>
+            <span class="time">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <a href="#{{ post.post_id }}">{{ post.title }}</a>を更新しました。
+          </li>
+          {% if post_count == 0 %} {% assign newest_date = post.date %} {% endif
+          %} {% assign post_count = post_count | plus:1 %} {% endif %} {% endif
+          %} {% endfor %}
+        </ul>
+      </div>
+      <!-- / #update_information -->
+    </section>
+
+    {% assign sorted_posts = site.posts | sort: "post_id" %} {% for post in
+    sorted_posts %} {% if post.categories contains 'ja' and post.categories
+    contains 'guide' %}
+    <section id="{{ post.post_id }}">
+      <div class="post_title">
+        <h1>
+          <span class="post_mark post_type_guide">GUIDE</span>
+          <a href="#{{ post.post_id }}"><span>{{ post.title }}</span></a>
+          <span class="post_id print"
+            >#{{ post.post_id | replace: 'post_', '' }}</span
+          >
+        </h1>
+        <!-- / .post_title -->
+      </div>
+      <div class="post_body">
+        <div>{{ post.content }}</div>
+        <!-- / .post_body -->
+      </div>
+    </section>
+    {% endif %} {% endfor %} {% assign sorted_posts = site.posts | sort:
+    "post_id" %} {% for post in sorted_posts %} {% if post.categories contains
+    'ja' and post.categories contains 'html' %}
+    <section id="{{ post.post_id }}">
+      <div class="post_title">
+        <h1>
+          <span class="post_mark post_type_html">HTML</span>
+          <a href="#{{ post.post_id }}"><span>{{ post.title }}</span></a>
+          <span class="post_id print"
+            >#{{ post.post_id | replace: 'post_', '' }}</span
+          >
+        </h1>
+        <!-- / .post_title -->
+      </div>
+      <div class="post_body">
+        <div>{{ post.content }}</div>
+        <!-- / .post_body -->
+      </div>
+    </section>
+    {% endif %} {% endfor %} {% assign sorted_posts = site.posts | sort:
+    "post_id" %} {% for post in sorted_posts %} {% if post.categories contains
+    'ja' and post.categories contains 'css' %}
+    <section id="{{ post.post_id }}">
+      <div class="post_title">
+        <h1>
+          <span class="post_mark post_type_css">CSS</span>
+          <a href="#{{ post.post_id }}"><span>{{ post.title }}</span></a>
+          <span class="post_id print"
+            >#{{ post.post_id | replace: 'post_', '' }}</span
+          >
+        </h1>
+        <!-- / .post_title -->
+      </div>
+      <div class="post_body">
+        <div>{{ post.content }}</div>
+        <!-- / .post_body -->
+      </div>
+    </section>
+    {% endif %} {% endfor %} {% assign sorted_posts = site.posts | sort:
+    "post_id" %} {% for post in sorted_posts %} {% if post.categories contains
+    'ja' and post.categories contains 'js' %}
+    <section id="{{ post.post_id }}">
+      <div class="post_title">
+        <h1>
+          <span class="post_mark post_type_js">JS</span>
+          <a href="#{{ post.post_id }}"><span>{{ post.title }}</span></a>
+          <span class="post_id print"
+            >#{{ post.post_id | replace: 'post_', '' }}</span
+          >
+        </h1>
+        <!-- / .post_title -->
+      </div>
+      <div class="post_body">
+        <div>{{ post.content }}</div>
+        <!-- / .post_body -->
+      </div>
+    </section>
+    {% endif %} {% endfor %} {% assign sorted_posts = site.posts | sort:
+    "post_id" %} {% for post in sorted_posts %} {% if post.categories contains
+    'ja' and post.categories contains 'sp' %}
+    <section id="{{ post.post_id }}">
+      <div class="post_title">
+        <h1>
+          <span class="post_mark post_type_sp">SP</span>
+          <a href="#{{ post.post_id }}"><span>{{ post.title }}</span></a>
+          <span class="post_id print"
+            >#{{ post.post_id | replace: 'post_', '' }}</span
+          >
+        </h1>
+        <!-- / .post_title -->
+      </div>
+      <div class="post_body">
+        <div>{{ post.content }}</div>
+        <!-- / .post_body -->
+      </div>
+    </section>
+    {% endif %} {% endfor %}
+
+    <!-- / #post -->
+  </div>
+</article>
+
+<aside>
+  <div id="post_shortcut">
+    <nav>
+      <ul>
+        {% assign sorted_posts = site.posts | sort: "post_id" %} {% for post in
+        sorted_posts %} {% if post.categories contains 'ja' and post.categories
+        contains 'guide' %}
+        <li>
+          <a href="#{{ post.post_id }}">
+            <span class="post_mark post_type_guide">GUIDE</span>
+            <span>{{ post.title }}</span>
+          </a>
+        </li>
+        {% endif %} {% endfor %} {% assign sorted_posts = site.posts | sort:
+        "post_id" %} {% for post in sorted_posts %} {% if post.categories
+        contains 'ja' and post.categories contains 'html' %}
+        <li>
+          <a href="#{{ post.post_id }}">
+            <span class="post_mark post_type_html">HTML</span>
+            <span>{{ post.title }}</span>
+          </a>
+        </li>
+        {% endif %} {% endfor %} {% assign sorted_posts = site.posts | sort:
+        "post_id" %} {% for post in sorted_posts %} {% if post.categories
+        contains 'ja' and post.categories contains 'css' %}
+        <li>
+          <a href="#{{ post.post_id }}">
+            <span class="post_mark post_type_css">CSS</span>
+            <span>{{ post.title }}</span>
+          </a>
+        </li>
+        {% endif %} {% endfor %} {% assign sorted_posts = site.posts | sort:
+        "post_id" %} {% for post in sorted_posts %} {% if post.categories
+        contains 'ja' and post.categories contains 'js' %}
+        <li>
+          <a href="#{{ post.post_id }}">
+            <span class="post_mark post_type_js">JS</span>
+            <span>{{ post.title }}</span>
+          </a>
+        </li>
+        {% endif %} {% endfor %} {% assign sorted_posts = site.posts | sort:
+        "post_id" %} {% for post in sorted_posts %} {% if post.categories
+        contains 'ja' and post.categories contains 'sp' %}
+        <li>
+          <a href="#{{ post.post_id }}">
+            <span class="post_mark post_type_sp">SP</span>
+            <span>{{ post.title }}</span>
+          </a>
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
+    </nav>
+    <!-- / #post_shortcut -->
+  </div>
+</aside>

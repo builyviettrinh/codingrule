@@ -1,0 +1,15 @@
+I"�<p>Khi tạo Web Responsive, tùy theo điều kiện mà sử dụng một trong 3 template dưới đây.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"./css/style.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">type=</span><span class="s">"text/css"</span> <span class="na">media=</span><span class="s">"all"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"./css/style_tb.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">media=</span><span class="s">"screen and (max-width:979px) and (min-width:768px)"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"./css/style_sp.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">media=</span><span class="s">"screen and (max-width:767px)"</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+
+<div>
+<ul>
+<li>style.css: là file css thông dụng cơ bản (base) được áp dụng cho tất cả media.</li>
+<li>style_tb.css: được áp dụng bổ sung cho media về view size có width 768px～979px (dành cho tablet).</li>
+<li>style_sp.css: được áp dụng bổ sung cho media về view size có width từ 767px trở xuống (dành cho SP).</li>
+</ul>
+</div>
+:ET

@@ -1,0 +1,33 @@
+I"X<p>PC と SP で画像を分ける時など、SP 用のコンテンツを追加する時にはファイルの設置場所や命名を次のようにしてください。</p>
+
+<ul>
+  <li>PC 用のコンテンツを設置しているディレクトリと同じ場所に SP 用のコンテンツも設置する。</li>
+  <li>ファイル名は <code class="language-plaintext highlighter-rouge">(PC 用のコンテンツのファイル名)_sp</code> とする。</li>
+</ul>
+
+<p>例えば、<code class="language-plaintext highlighter-rouge">img-header.png</code> という画像が PC 向けに存在する時、それに対応する SP 用の画像は <code class="language-plaintext highlighter-rouge">img-header_sp.png</code> とし、ディレクトリ構造は以下のようになります。</p>
+
+<div>
+  <ul>
+    <li>
+      <p>
+        <span class="folder">img</span>
+      </p>
+      <ul>
+        <li>
+          <p>
+            <span class="file">img-header.png</span>
+          </p>
+        </li>
+        <li>
+          <p>
+            <span class="file">img-header_sp.png</span>
+          </p>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<p>画像数が多くなりすぎて管理しづらくなる場合は画像の種類ごとにディレクトリを分け、PC / SP という軸でディレクトリを分けることは避けてください。</p>
+:ET

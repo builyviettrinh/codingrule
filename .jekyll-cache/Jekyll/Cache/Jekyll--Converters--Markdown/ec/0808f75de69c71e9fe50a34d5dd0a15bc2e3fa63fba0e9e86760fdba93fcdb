@@ -1,0 +1,18 @@
+I"�	<p>margin, padding, border, list-style, background, font, outline có thể gom các property lại và viết một cách giản lược.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.selector</span> <span class="p">{</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="n">size</span> <span class="n">type</span> <span class="n">color</span><span class="p">;</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="m">#cccccc</span><span class="p">;</span>
+
+  <span class="nl">background</span><span class="p">:</span> <span class="sx">url(...)</span>  <span class="n">canh</span> <span class="n">trái</span> <span class="n">phải</span>  <span class="n">canh</span> <span class="n">trên</span> <span class="n">dưới</span>  <span class="nb">repeat</span>  <span class="n">màu</span> <span class="n">nền</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="sx">url(sample.gif)</span> <span class="m">10px</span> <span class="nb">center</span> <span class="nb">no-repeat</span> <span class="m">#ff0000</span><span class="p">;</span>
+
+  <span class="nl">margin</span><span class="p">:</span> <span class="n">phía</span> <span class="n">trên</span>  <span class="n">bên</span> <span class="n">phải</span>  <span class="n">phía</span> <span class="n">dưới</span>  <span class="n">bên</span> <span class="n">trái</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="n">trên</span> <span class="n">dưới</span>  <span class="n">trái</span> <span class="n">phải</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="n">phía</span> <span class="n">trên</span>  <span class="n">trái</span> <span class="n">phải</span>  <span class="n">phía</span> <span class="n">dưới</span><span class="p">;</span>
+
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">0</span> <span class="m">0</span> <span class="m">10px</span><span class="p">;</span> <span class="c">/* Nếu chỉ setting 1 giá trị, thì không sử dụng Shorthand */</span>
+  <span class="nl">margin-left</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET

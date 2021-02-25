@@ -1,0 +1,18 @@
+I"�<p>大カテゴリ、小カテゴリを使い分け、適時区別してソースの視認性を確保してください。</p>
+
+<p>ハイフンの数は40文字です。</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/*----------------------------------------
+  主分類(ヘッダー、フッター、コンテンツなど)
+----------------------------------------*/</span>
+<span class="nc">.hentry</span> <span class="p">{</span>
+  <span class="py">property</span><span class="p">:</span> <span class="n">value</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c">/*  下層分類(適切な区別で)
+----------------------------------------*/</span>
+<span class="nf">#header</span> <span class="p">{</span>
+  <span class="py">property</span><span class="p">:</span> <span class="n">value</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET

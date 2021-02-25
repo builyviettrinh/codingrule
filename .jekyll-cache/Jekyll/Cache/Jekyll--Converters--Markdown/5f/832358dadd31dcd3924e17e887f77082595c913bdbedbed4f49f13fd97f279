@@ -1,0 +1,7 @@
+I"�<p>特に指定がない場合、文字コードはutf-8、改行コードはLFを使用します。</p>
+
+<p>通常、サイト内のあらゆるドキュメントファイル(CSSやJavascript含む)は文字コードを統一してください。</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+:ET

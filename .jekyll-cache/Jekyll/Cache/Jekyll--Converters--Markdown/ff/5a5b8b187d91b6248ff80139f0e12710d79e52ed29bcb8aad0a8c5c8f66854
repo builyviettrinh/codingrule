@@ -1,0 +1,11 @@
+I"�<p>Hãy viết element theo thứ tự bên dưới</p>
+
+<div>
+  <ol>
+    <li>meta element</li>
+    <li>title element</li>
+    <li>link element</li>
+    <li>script element</li>
+  </ol>
+</div>
+:ET

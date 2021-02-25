@@ -1,0 +1,51 @@
+I"
+<p>横並びリストで複数行になる場合の、推奨するエッジ処理方法です。</p>
+
+<h2 id="非推奨">非推奨</h2>
+
+<p>&lt;li&gt;タグに margin-left を指定し、右端となる&lt;li&gt;タグに class=“first” とするなどして margin-left をカットする方法。</p>
+
+<h3 id="html">HTML</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ul&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"fisrt"</span><span class="nt">&gt;</span>テキスト<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>テキスト<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>テキスト<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div></div>
+
+<h3 id="css">CSS</h3>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">li</span> <span class="p">{</span>
+  <span class="nl">margin-left</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">li</span><span class="nc">.first</span> <span class="p">{</span>
+  <span class="nl">margin-left</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="推奨">推奨</h2>
+
+<p>エッジクリア用の class 名を付与するのではなく、 CSS のみで調整する。</p>
+
+<h3 id="html-1">HTML</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ul&gt;</span>
+  <span class="nt">&lt;li&gt;</span>テキスト<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>テキスト<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>テキスト<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div></div>
+
+<h3 id="css-1">CSS</h3>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">li</span> <span class="p">{</span>
+  <span class="nl">margin-left</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">li</span><span class="nd">:first-child</span> <span class="p">{</span>
+  <span class="nl">margin-left</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET

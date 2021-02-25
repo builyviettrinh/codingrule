@@ -1,0 +1,8 @@
+I"z<p>Ở (X)HTML, về nguyên tắc, cần có thuộc tính alt.</p>
+
+<p>Thuộc tính alt không chỉ chứa image name, mà còn phải miêu tả hình ảnh đó bằng text, nội dung phải kết nối liền mạch với đoạn text tiếp theo.</p>
+
+<p>Trường hợp hình mang tính trang trí, không có từ nào cho bào alt, thì phải hiển thị alt rỗng (alt=“”).</p>
+
+<p>Thông thường, path của thuộc tính src là path tương đối (relative path). Sử dụng Root-relative path khi có những lý do rõ ràng, ví dụ dùng chung cho các page con như header element, global navi…</p>
+:ET

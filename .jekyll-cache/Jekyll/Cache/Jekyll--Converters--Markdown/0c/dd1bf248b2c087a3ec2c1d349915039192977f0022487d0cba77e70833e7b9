@@ -1,0 +1,5 @@
+I"�<p>Hình của tag img phải có độ phân giải gấp 2 lần size hiển thị.</p>
+
+<p>Tương tự, đối với background image cũng phải chuẩn bị hình có độ phân giải gấp 2 lần, và điều chỉnh bằng background-size property.
+Tuy nhiên với hệ Android2.x hay IE8 trở xuống (không hỗ trợ background-size) thì sử dụng hình với size thực (actual size).</p>
+:ET

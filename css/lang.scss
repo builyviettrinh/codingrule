@@ -1,0 +1,29 @@
+---
+
+---
+@charset "utf-8";
+
+/*----------------------------------------
+    言語切替
+----------------------------------------*/
+/*  #japanese
+----------------------------------------*/
+body#japanese {
+  font-family: 'Droid Sans', "メイリオ", Meiryo, "Meiryo UI", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+/*  #chinese
+----------------------------------------*/
+body#chinese {
+  font-family: 'Droid Sans', 'Simhei', 'MS UI Gothic','Hei', "メイリオ", Meiryo, sans-serif;
+}
+/*  #english
+----------------------------------------*/
+body#english {
+  font-family: 'Droid Sans', "メイリオ", Meiryo, sans-serif;
+}
+/*  #vietnamese
+----------------------------------------*/
+body#vietnamese {
+  font-family: "Times New Roman", 'Droid Sans', "メイリオ", Meiryo, "Meiryo UI", sans-serif;
+}

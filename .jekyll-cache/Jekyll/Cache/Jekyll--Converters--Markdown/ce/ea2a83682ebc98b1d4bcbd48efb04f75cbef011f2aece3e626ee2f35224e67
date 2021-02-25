@@ -1,0 +1,54 @@
+I"a<p>Không sử dụng serial number khi đặt tên (ví dụ: section_1, section_2…), không sử dụng tên thể hiện thông tin layout (ví dụ: float_left, position_fixed…).</p>
+
+<p>Trường hợp bắt buộc sử dụng serial number, thì tên phải có dạng dấu gạch dưới 「_」+ con số (ví dụ: section_1, section_2…), lưu ý là con số không được ở dạng 「_02」….</p>
+
+<p>Element cố hữu (header, footer…) thì sử dụng id, element thông thường (detail, item…) thì sử dụng class. Khi không rõ sử dụng cái nào thì hãy dung class.</p>
+
+<p>Dưới đây là bảng liệt kê những cái thường được sử dụng. Khuyến khích sử dụng cái đã chính thức thành element  name ở HTM5.</p>
+
+<div>
+  <h2>Danh sách id/class name thường được sử dụng</h2>
+  <ul>
+    <li>
+      <h3>Parent element bao quát tổng thể</h3>
+      <p>wrapper</p>
+    </li>
+    <li>
+      <h3>Child element bao quát bên trong</h3>
+      <p>inner</p>
+    </li>
+    <li>
+      <h3>Header</h3>
+      <p>header</p>
+    </li>
+    <li>
+      <h3>Footer</h3>
+      <p>footer</p>
+    </li>
+    <li>
+      <h3>Navigation</h3>
+      <p>nav、global_nav、local_nav</p>
+    </li>
+    <li>
+      <h3>Topic path list</h3>
+      <p>topic_path</p>
+    </li>
+    <li>
+      <h3>Main area/ nội dung chính</h3>
+      <p>article</p>
+    </li>
+    <li>
+      <h3>Local area section</h3>
+      <p>section</p>
+    </li>
+    <li>
+      <h3>Side bar</h3>
+      <p>aside</p>
+    </li>
+    <li>
+      <h3>Modal Window</h3>
+      <p>modal</p>
+    </li>
+  </ul>
+</div>
+:ET

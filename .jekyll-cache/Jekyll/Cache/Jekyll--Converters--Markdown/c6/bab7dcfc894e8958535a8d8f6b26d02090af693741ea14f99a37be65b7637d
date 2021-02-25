@@ -1,0 +1,54 @@
+I"P<p>不建议使用连续编号命名（section_1, section_2 等）、和表达布局信息的名字（float_left, position_fixed 等）。</p>
+
+<p>不得不使用连续号码的时候，用下划线[_]+号码（section_1, section_2等）。原则上禁止使用统一位数[_02]的表示方法。</p>
+
+<p>固定要素（header, footer等）时请使用id，是通用的要素（detail, item等）时请使用class，当难以判断是使用id还是class时，请使用class。</p>
+
+<p>常用名称总结如下。建议选用 HTML5 中正式定义的元素名称。</p>
+
+<div>
+  <h2>常用 id/class 名称列表</h2>
+  <ul>
+    <li>
+      <h3>包括整体的父元素</h3>
+      <p>wrapper</p>
+    </li>
+    <li>
+      <h3>包括内部的子元素</h3>
+      <p>inner</p>
+    </li>
+    <li>
+      <h3>页眉</h3>
+      <p>header</p>
+    </li>
+    <li>
+      <h3>页脚</h3>
+      <p>footer</p>
+    </li>
+    <li>
+      <h3>导航</h3>
+      <p>nav、global_nav、local_nav</p>
+    </li>
+    <li>
+      <h3>面包屑导航(当前位置)</h3>
+      <p>topic_path</p>
+    </li>
+    <li>
+      <h3>正文 / 主区域</h3>
+      <p>article</p>
+    </li>
+    <li>
+      <h3>局部区域</h3>
+      <p>section</p>
+    </li>
+    <li>
+      <h3>侧边栏</h3>
+      <p>aside</p>
+    </li>
+    <li>
+      <h3>模态窗口</h3>
+      <p>modal</p>
+    </li>
+  </ul>
+</div>
+:ET

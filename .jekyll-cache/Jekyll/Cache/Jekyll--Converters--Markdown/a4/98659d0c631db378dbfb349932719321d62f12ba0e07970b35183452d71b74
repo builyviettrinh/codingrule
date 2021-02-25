@@ -1,0 +1,18 @@
+I"�<p>margin, padding, border, list-style, background, font, outline はプロパティをまとめて簡略化して記述できます。</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.selector</span> <span class="p">{</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="n">size</span> <span class="n">type</span> <span class="n">color</span><span class="p">;</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="m">#cccccc</span><span class="p">;</span>
+
+  <span class="nl">background</span><span class="p">:</span> <span class="sx">url(...)</span> <span class="n">左右揃え</span> <span class="n">上下揃え</span> <span class="n">リピート</span> <span class="n">背景色</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="sx">url(sample.gif)</span> <span class="m">10px</span> <span class="nb">center</span> <span class="nb">no-repeat</span> <span class="m">#ff0000</span><span class="p">;</span>
+
+  <span class="nl">margin</span><span class="p">:</span> <span class="n">上</span><span class="err">　</span><span class="n">右</span><span class="err">　</span><span class="n">下</span><span class="err">　</span><span class="n">左</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="n">上下</span><span class="err">　</span><span class="n">左右</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="n">上</span><span class="err">　</span><span class="n">左右</span><span class="err">　</span><span class="n">下</span><span class="p">;</span>
+
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">0</span> <span class="m">0</span> <span class="m">10px</span><span class="p">;</span> <span class="c">/* 値を一つだけ設定するなら、Shorthandを使用しない */</span>
+  <span class="nl">margin-left</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET

@@ -1,0 +1,22 @@
+I"X<p>Format tuân thủ theo như dưới đây:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.selector</span> <span class="p">{</span>
+  <span class="nl">display</span><span class="p">:</span> <span class="nb">block</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">20px</span> <span class="m">20px</span> <span class="m">0</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="sx">url(/img/logo-company.png)</span> <span class="nb">no-repeat</span> <span class="nb">left</span> <span class="nb">top</span> <span class="m">#ff0000</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<div>
+<ul>
+<li>Sau selector name, cách 1 space 1 byte rồi nhập dấu ngoặc mở 「{」.</li>
+<li>Cách 2 space 1 byte trước các property.</li>
+<li>Cách 1 space 1 byte sau dấu hai chấm.</li>
+<li>Thông thường, 1 property sẽ được quản lý bằng 1 dòng để dễ nhìn và clearfix, còn phán đoán kết nối như thế nào là tùy ý người thực hiện.</li>
+<li>Sau các giá thị thì phải hiển thị kết thúc bằng dấu chấm phẩy 「;」.</li>
+<li>Không cách space trước dấu ngoặc đóng 「}」.</li>
+<li>Khi chỉ định path trong url như background… thì không cần dấu ngoặc đơn 「'」, hay dấu ngoặc kép 「"」.</li>
+<li>Trường hợp giá trị là “0”, thì không cần ghi đơn vị px…</li>
+</ul>
+</div>
+:ET

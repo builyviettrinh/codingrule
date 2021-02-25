@@ -1,0 +1,14 @@
+I"�<p>Trường hợp sử dụng css3, hãy thêm vendor prefix dưới đây khi cần.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/* Browser hệ webkit (browser tiêu chuẩn safari/ Android, Chrome…)  */</span>
+<span class="nt">-webkit-transform</span><span class="o">:</span> <span class="nt">translate</span><span class="o">(</span><span class="err">100</span><span class="o">,</span><span class="err">0</span><span class="o">);</span>
+<span class="c">/* Browser hệ Mozila (FireFox…) */</span>
+<span class="nt">-moz-transform</span><span class="o">:</span> <span class="nt">translate</span><span class="o">(</span><span class="err">100</span><span class="o">,</span><span class="err">0</span><span class="o">);</span>
+<span class="c">/* Browser hệ MicroSoft  (Windows Phone…) */</span>
+<span class="nt">-ms-transform</span><span class="o">:</span> <span class="nt">translate</span><span class="o">(</span><span class="err">100</span><span class="o">,</span><span class="err">0</span><span class="o">);</span>
+<span class="c">/* Coding chuẩn W3C */</span>
+<span class="nt">transform</span><span class="o">:</span> <span class="nt">translate</span><span class="o">(</span><span class="err">100</span><span class="o">,</span><span class="err">0</span><span class="o">);</span>
+</code></pre></div></div>
+
+<p>Lược bỏ các prefix một cách phù hợp với os/ browser, và với tình hình coding của browser đối ứng.</p>
+:ET

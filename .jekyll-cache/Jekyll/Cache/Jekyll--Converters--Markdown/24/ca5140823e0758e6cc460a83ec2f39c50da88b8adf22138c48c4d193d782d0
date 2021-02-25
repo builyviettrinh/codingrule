@@ -1,0 +1,18 @@
+I"�<p>Phân chia sử dụng hợp lý large category, small category để đảm bảo source dễ nhìn dễ hiểu.</p>
+
+<p>Số lượng dấu gạch giữa (hyphen) là 40 ký tự.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/*----------------------------------------
+  Phân loại chính (header, footer, content…)
+----------------------------------------*/</span>
+<span class="nc">.hentry</span> <span class="p">{</span>
+  <span class="py">property</span><span class="p">:</span> <span class="n">value</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c">/*  Phân loại tầng con bên dưới (theo phân loại thích hợp)
+----------------------------------------*/</span>
+<span class="nf">#header</span> <span class="p">{</span>
+  <span class="py">property</span><span class="p">:</span> <span class="n">value</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET

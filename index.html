@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<script>
+;(function(){
+  var language = (navigator.userLanguage || navigator.browserLanguage || navigator.language).toLowerCase();
+
+  if(language.indexOf('ja') > -1) {
+    location.href = './ja.html';
+    return;
+  }
+
+  if(language.indexOf('zh') > -1) {
+    location.href = './zh.html';
+    return;
+  }
+
+  if(language.indexOf('vn') > -1) {
+    location.href = './vn.html';
+    return;
+  }
+
+  // TODO: enページができたら以下を復活
+  // if(language.indexOf('en') > -1) {
+  //   location.href = './en.html';
+  //   return;
+  // }
+
+  location.href = './ja.html';
+})();
+</script>

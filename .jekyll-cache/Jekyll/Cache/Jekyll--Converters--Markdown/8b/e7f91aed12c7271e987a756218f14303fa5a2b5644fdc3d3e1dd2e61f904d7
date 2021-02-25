@@ -1,0 +1,10 @@
+I"0<p>Khi tạo site mới, có thể Download page set (html + css) từ bên dưới.
+Đã viết sẵn DTD default và tag cơ bản trong &lt;head&gt;.</p>
+
+<div>
+  <ul>
+    <li><a href="./zip/xhtml.zip">(X)HTML site set</a></li>
+    <li><a href="./zip/html5.zip">HTML5 site set</a></li>
+  </ul>
+</div>
+:ET

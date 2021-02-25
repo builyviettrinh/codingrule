@@ -1,0 +1,18 @@
+I"�<p>margin, padding, border, list-style, background, font, outline 可以归纳属性后简化表达。</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.selector</span> <span class="p">{</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="n">size</span> <span class="n">type</span> <span class="n">color</span><span class="p">;</span>
+  <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="m">#cccccc</span><span class="p">;</span>
+
+  <span class="nl">background</span><span class="p">:</span> <span class="sx">url(...)</span> <span class="n">左右</span> <span class="n">上下</span> <span class="n">REPEAT</span> <span class="n">BACKGROUND</span><span class="p">;</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="sx">url(sample.gif)</span> <span class="m">10px</span> <span class="nb">center</span> <span class="nb">no-repeat</span> <span class="m">#ff0000</span><span class="p">;</span>
+
+  <span class="nl">margin</span><span class="p">:</span> <span class="nb">top</span> <span class="nb">right</span> <span class="nb">bottom</span> <span class="nb">left</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="n">top-bottom</span> <span class="n">left-right</span><span class="p">;</span>
+  <span class="nl">margin</span><span class="p">:</span> <span class="nb">top</span> <span class="n">left-right</span> <span class="nb">bottom</span><span class="p">;</span>
+
+  <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">0</span> <span class="m">0</span> <span class="m">10px</span><span class="p">;</span> <span class="c">/* 如果仅设定一个值，则不使用 Shorthand。 */</span>
+  <span class="nl">margin-left</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET

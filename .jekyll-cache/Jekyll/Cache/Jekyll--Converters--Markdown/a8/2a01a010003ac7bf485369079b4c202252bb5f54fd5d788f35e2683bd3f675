@@ -1,0 +1,15 @@
+I"�<p>制作自适应页面时，请视情况利用以下 3 种模板。</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"./css/style.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">type=</span><span class="s">"text/css"</span> <span class="na">media=</span><span class="s">"all"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"./css/style_tb.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">media=</span><span class="s">"screen and (max-width:979px) and (min-width:768px)"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"./css/style_sp.css"</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">media=</span><span class="s">"screen and (max-width:767px)"</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+
+<div>
+<ul>
+<li>style.css 是通用的基本 CSS 文件，可以用于所有媒体。</li>
+<li>style_tb.css 可以追加后用于视图尺寸为宽 768px～979px 的媒体（适用于平板电脑）。</li>
+<li>style_sp.css 可以追加后用于视图尺寸为宽 767px 以下的媒体（适用于智能手机）。</li>
+</ul>
+</div>
+:ET

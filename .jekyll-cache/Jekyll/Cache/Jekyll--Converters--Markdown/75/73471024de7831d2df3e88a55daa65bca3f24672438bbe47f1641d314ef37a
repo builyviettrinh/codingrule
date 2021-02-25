@@ -1,0 +1,36 @@
+I"e<p>无特殊标明的情况下，下表为标准浏览器。</p>
+
+<p>制作过程中或制作后如果需要更改将大幅提高成本，所以制作开始前请务必进行确认。
+如果是旧网站更新时，可能根据原网站的需要，对应低版本的浏览器。要求支持的浏览器可能包括 IE6，因此请特别注意。</p>
+
+<div>
+  <h2>Windows</h2>
+  <ul>
+    <li>Internet Explorer 8/9/10/11<br />参考：根据<a href="https://www.netmarketshare.com/browser-market-share.aspx?qprid=2&amp;qpcustomd=0" target="_blank">NETMARKETSHARE</a>规定，小于1%时不在考虑范围之内</li>
+    <li>Firefox (Latest at the time of creation)</li>
+    <li>Chrome (Latest at the time of creation)</li>
+  </ul>
+</div>
+<div>
+  <h2>Mac</h2>
+  <ul>
+    <li>Firefox (Latest at the time of creation)</li>
+    <li>Safari (Latest at the time of creation)</li>
+    <li>Chrome (Latest at the time of creation)</li>
+  </ul>
+</div>
+<div>
+  <h2>スマートフォン</h2>
+  <ul>
+    <li>iPhone(safari) iOS 6/7/8<br />参考：<a href="https://developer.apple.com/support/appstore/" target="_blank">Apple正式公布</a></li>
+    <li>Android 2.¾.x<br />参考：<a href="http://developer.android.com/about/dashboards/index.html" target="_blank">Google正式公布</a></li>
+  </ul>
+</div>
+<div>
+  <h2>タブレット</h2>
+  <ul>
+    <li>iPad(safari) iOS 6/7/8<br />参考：<a href="https://developer.apple.com/support/appstore/" target="_blank">Apple正式公布</a></li>
+    <li>Android 4.x<br />参考：<a href="http://developer.android.com/about/dashboards/index.html" target="_blank">Google正式公布</a></li>
+  </ul>
+</div>
+:ET

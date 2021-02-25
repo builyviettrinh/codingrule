@@ -1,0 +1,14 @@
+I"<p>CSS3を使用する場合は、必要に応じて以下のベンダープレフィックスをつけてください。</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/* webkit系ブラウザ(safari/Android標準ブラウザ/Chromeなど) */</span>
+<span class="nt">-webkit-transform</span><span class="o">:</span> <span class="nt">translate</span><span class="o">(</span><span class="err">100</span><span class="o">,</span><span class="err">0</span><span class="o">);</span>
+<span class="c">/* Mozila系ブラウザ(FireFoxなど) */</span>
+<span class="nt">-moz-transform</span><span class="o">:</span> <span class="nt">translate</span><span class="o">(</span><span class="err">100</span><span class="o">,</span><span class="err">0</span><span class="o">);</span>
+<span class="c">/* MicroSoft系ブラウザ(Windows Phoneなど) */</span>
+<span class="nt">-ms-transform</span><span class="o">:</span> <span class="nt">translate</span><span class="o">(</span><span class="err">100</span><span class="o">,</span><span class="err">0</span><span class="o">);</span>
+<span class="c">/* W3C 標準実装 */</span>
+<span class="nt">transform</span><span class="o">:</span> <span class="nt">translate</span><span class="o">(</span><span class="err">100</span><span class="o">,</span><span class="err">0</span><span class="o">);</span>
+</code></pre></div></div>
+
+<p>各プレフィックスは対応OS/ブラウザ、およびブラウザの実装状況に合わせて省略してください。</p>
+:ET

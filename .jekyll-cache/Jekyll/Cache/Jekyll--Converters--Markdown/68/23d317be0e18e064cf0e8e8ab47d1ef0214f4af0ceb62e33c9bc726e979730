@@ -1,0 +1,36 @@
+I"�<p>Dưới đây là Bảng browser tiêu chuẩn, cho trường hợp không có chỉ định browser cụ thể.</p>
+
+<p>Trước khi bắt đầu chế tác, phải xác nhận browser, để tránh trường hợp phát sinh sự cố phải thay đổi trong/ sau quá trình chế tác, làm tăng chi phí.
+Đặc biệt lưu ý là, nếu site/ content cần có downward compatibility (tính tương thích ngược), thì thường phải đối ứng cho cả IE6.</p>
+
+<div>
+  <h2>Windows</h2>
+  <ul>
+    <li>Internet Explorer 8/9/10/11<br />Tham khảo：ở <a href="https://www.netmarketshare.com/browser-market-share.aspx?qprid=2&amp;qpcustomd=0" target="_blank">NETMARKETSHARE</a> những cái dưới 1% thì không thuộc phạm vi xem xét</li>
+    <li>Firefox: latest version tại thời điểm chế tác</li>
+    <li>Chrome: latest version tại thời điểm chế tác</li>
+  </ul>
+</div>
+<div>
+  <h2>Mac</h2>
+  <ul>
+    <li>Firefox: latest version tại thời điểm chế tác</li>
+    <li>Safari: latest version tại thời điểm chế tác</li>
+    <li>Chrome: latest version tại thời điểm chế tác</li>
+  </ul>
+</div>
+<div>
+  <h2>Smartphone</h2>
+  <ul>
+    <li>iPhone(safari) iOS 6/7/8<br />Tham khảo: <a href="https://developer.apple.com/support/appstore/" target="_blank">https://developer.apple.com/support/appstore/</a></li>
+    <li>Android 2.¾.x<br />Tham khảo: <a href="http://developer.android.com/about/dashboards/index.html" target="_blank">http://developer.android.com/about/dashboards/index.html</a></li>
+  </ul>
+</div>
+<div>
+  <h2>Tablet</h2>
+  <ul>
+    <li>iPad(safari) iOS 6/7/8<br />Tham khảo: <a href="https://developer.apple.com/support/appstore/" target="_blank">https://developer.apple.com/support/appstore/</a></li>
+    <li>Android 4.x<br />Tham khảo: <a href="http://developer.android.com/about/dashboards/index.html" target="_blank">http://developer.android.com/about/dashboards/index.html</a></li>
+  </ul>
+</div>
+:ET

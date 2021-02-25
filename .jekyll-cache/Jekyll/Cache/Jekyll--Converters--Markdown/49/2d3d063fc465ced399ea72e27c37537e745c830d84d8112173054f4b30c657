@@ -1,0 +1,10 @@
+I".<p>Về nguyên tắc, không được sử dụng thuộc tính target ở HTML4.01 Transitional, XHTML 1.0 Transitional, DOCTYPE ngoài HTML5, khi triển khai/ mở bằng window khác thì sử dụng JavaScript.</p>
+
+<p>Link đến page khác trong cùng 1 domain thì làm path tương đối (relative path). Sử dụng Root-relative path khi có những lý do rõ ràng, ví dụ dùng chung cho các page con như header element, global navi…</p>
+
+<p>Nếu là Link download PDF, thì ghi rõ là PDF.</p>
+
+<p>Trường hợp bổ trợ chức năng bằng JavaScript, thì thuộc tính href nằm sau dấu sharp (「#」), có dạng từ hoặc chuỗi ký tự thể hiện đơn giản chức năng. Liên kết giữa các từ, theo nguyên tắc thì áp dụng snake case.</p>
+
+<p>Trường hợp, trong lúc chế tác, chưa biết rõ link như thế nào, thì hãy viết thuộc tính href là sharp 「#」. Để tránh setting thiếu, thì không được giao hàng file HTML có a element mà thuộc tính href là sharp 「#」.</p>
+:ET

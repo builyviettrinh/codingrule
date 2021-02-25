@@ -1,0 +1,10 @@
+I"<p>pug、scss、js などで、ビルドで出力されないフォルダとファイルには、先頭に「 _ 」をつけます。</p>
+
+<div>
+  <ul>
+    <li>/_pug/_header.pug</li>
+    <li>/_scss/_header.scss</li>
+    <li>/_js/_accordion.js</li>
+  </ul>
+</div>
+:ET

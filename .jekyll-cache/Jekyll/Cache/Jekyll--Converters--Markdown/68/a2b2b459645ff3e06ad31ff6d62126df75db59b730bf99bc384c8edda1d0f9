@@ -1,0 +1,9 @@
+I"�<p>Trường hợp Responsive site, thì chỉ định viewport như dưới đây.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"initial-scale=1.0, width=device-width"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+<p>Trường hợp site dành riêng cho smartphone, khi setting cho width của page hiển thị hết toàn screen thì chỉ định giá trị đó vào viewport.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=1160"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+:ET

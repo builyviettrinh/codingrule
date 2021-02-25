@@ -1,0 +1,18 @@
+I"�<p>请区别使用大标题、小标题，适时划分以确保源代码的可见性。</p>
+
+<p>连字符的数量为 40 个字符。</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/*----------------------------------------
+  Main classification (Header, footer contents, etc.)
+----------------------------------------*/</span>
+<span class="nc">.hentry</span> <span class="p">{</span>
+  <span class="py">property</span><span class="p">:</span> <span class="n">value</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c">/*  Lower classification (by distinguishing appropriately)
+----------------------------------------*/</span>
+<span class="nf">#header</span> <span class="p">{</span>
+  <span class="py">property</span><span class="p">:</span> <span class="n">value</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET

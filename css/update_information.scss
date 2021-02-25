@@ -1,0 +1,25 @@
+---
+
+---
+@charset "utf-8";
+
+/*----------------------------------------
+    更新情報
+----------------------------------------*/
+
+/*  #update_information
+----------------------------------------*/
+#update_information {
+  li {
+    padding-left: 100px;
+    margin-bottom: 10px;
+  }
+
+  li span.time {
+    font-weight: bold;
+    position: absolute;
+    margin-left: -100px;
+    background: url(../img/bg-list_mark.png) 0 0.5em no-repeat;
+    padding-left: 10px;
+  }
+}

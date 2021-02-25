@@ -1,0 +1,7 @@
+I"�<p>Theo nguyên tắc, trường hợp không có design hover cho link button image, thì setting hiệu ứng hover như bên dưới</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">a</span><span class="nd">:hover</span> <span class="nt">img</span> <span class="p">{</span>
+  <span class="nl">opacity</span><span class="p">:</span> <span class="m">0.7</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET

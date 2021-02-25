@@ -1,0 +1,6 @@
+I"�<p>原则上img标签必须写alt、width、height属性。</p>
+
+<p>不需要写alt的图片，要写成alt=”“。</p>
+
+<p>对应响应式布局，需要图片扩大缩小的情况下，可以省略width、height属性。</p>
+:ET
