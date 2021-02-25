@@ -27,20 +27,32 @@ Windows で Jekyll を動かす
 jekyll 2.5.3 を Windows 環境にインストール
 
 ## 更新手順・ルール
-Git でブランチを作成し、Pull request を送る
+### Git でブランチを作成し、Pull request を送る
 ローカルブランチに「issue-」と issue 番号を付けたブランチを作成する
+```
 $ git branch issue-(issue 番号)
+```
 作成したローカルブランチに移動
+```
 $ git checkout issue-(issue 番号)
+```
 ローカルブランチで作業完了後、コミットのコメント最後に「#(issue 番号)」を記述して、issue と紐付ける
+```
 $ git commit -m "bug fix #(issue 番号)"
+```
 コミット後、ローカルブランチをリモートブランチに push
+```
 $ git push origin issue-(issue 番号)"
+```
 GitHub のリポジトリに表示される「Complare＆ Pull request」というボタンをクリック、issue 提起者宛てに Pull request を送る
 jekyll で記事追加・更新を行う
+```
 /\_post/ 直下の各言語ディレクトリ内の各カテゴリディレクトリにファイル（.md）を追加 or 修正
+``
 ファイルの命名規則は yyyy-mm-dd-(article name).md
+```
 命名規則内の日付は何でもよい。（フォーマットは jekyll の決まりごと）
+```
 .md ファイルの文頭に以下を必ず記述する
 ```
 　---
