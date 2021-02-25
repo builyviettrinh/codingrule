@@ -1,0 +1,7 @@
+I"�<p>特に指定がなければ、サイト名からページ階層を逆順で記述し、区切り文字には”｜”を使用してください。</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;title&gt;</span>
+  コーディングガイドライン｜ガイドライン｜第二クリエイティブ｜株式会社
+<span class="nt">&lt;/title&gt;</span>
+</code></pre></div></div>
+:ET

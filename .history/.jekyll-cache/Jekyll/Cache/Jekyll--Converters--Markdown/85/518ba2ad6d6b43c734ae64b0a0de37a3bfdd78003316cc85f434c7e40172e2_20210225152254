@@ -1,15 +1,15 @@
-I"�<p>書式は以下に従ってください。</p>
+I"�<p>書式は以下に従ってください。</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;body&gt;</span>
 <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"article"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;h1&gt;</span>コーディングガイドライン<span class="nt">&lt;/h1&gt;</span>
-    <span class="nt">&lt;p&gt;</span> のコーディングガイドラインです。<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>オロのコーディングガイドラインです。<span class="nt">&lt;/p&gt;</span>
   <span class="c">&lt;!-- / .section --&gt;</span><span class="nt">&lt;/div&gt;</span>
 
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;h1&gt;</span>コーディングガイドライン<span class="nt">&lt;/h1&gt;</span>
-    <span class="nt">&lt;p&gt;</span> のコーディングガイドラインです。<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>オロのコーディングガイドラインです。<span class="nt">&lt;/p&gt;</span>
   <span class="c">&lt;!-- / .section --&gt;</span><span class="nt">&lt;/div&gt;</span>
 <span class="c">&lt;!-- / #article --&gt;</span><span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/body&gt;</span>
