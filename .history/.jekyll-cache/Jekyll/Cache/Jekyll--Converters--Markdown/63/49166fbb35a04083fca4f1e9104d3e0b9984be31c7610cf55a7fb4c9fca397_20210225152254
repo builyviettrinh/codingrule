@@ -1,8 +1,8 @@
-I"�<p>Về nguyên tắc, cần có các meta dưới đây.</p>
+I"�<p>Về nguyên tắc, cần có các meta dưới đây.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"keywords"</span> <span class="na">content=</span><span class="s">"keyword 1, keyword 2, keyword 3"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"description"</span> <span class="na">content=</span><span class="s">"câu giải thích ngắn gọn cho nội dung của site."</span><span class="nt">&gt;</span>
-<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"author"</span> <span class="na">content=</span><span class="s">"Công ty   "</span><span class="nt">&gt;</span>
+<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"author"</span> <span class="na">content=</span><span class="s">"Công ty Oro"</span><span class="nt">&gt;</span>
 </code></pre></div></div>
 :ET
